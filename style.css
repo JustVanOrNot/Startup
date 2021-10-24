@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;1,100&display=swap');
+*{
+    margin:0;
+    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+button{
+    background: none;
+    border: 2px solid white;
+    color: white;
+    width: 180px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 50px;
+   /* color: white;*/
+}
+header{
+    display: flex;
+    flex-direction:row;
+    flex-basis: 100%;
+
+    
+}
+.logo{
+    height: 50px;
+    flex-basis: 45%;
+    margin-top: 12px;
+    
+    margin-left: 200px;
+    
+   /*background-color: white;*/
+}
+.refs{
+    align-items: flex-end;
+    height: 40px;
+    flex-basis: 100%;
+    padding-left: 260px;
+ /*background-color:yellowgreen ; */
+    display: flex;
+   
+    
+
+
+}
+.block{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 2.5px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.main-field{
+    
+    height: 700px;
+ /*   background-image: linear-gradient(rgb(0,0,0.5), black) ; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+#logotype{
+    font-size: 26px;
+    margin-left:10px ;
+    align-items: flex-start;
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+.refs a{
+    font-size: 14px;
+    font-weight:50;
+    
+    
+}
+.main{
+    flex-wrap: wrap;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: 
+    linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),   
+    url("background.png");
+    background-size:cover;
+    background-position-x: 0px;
+    background-position-y: -20px;
+    flex-wrap: wrap;
+    
+}
+footer{
+    height: 212.4px;
+    background-color: white;
+}
+.main-intro-line {
+    width: 50px;
+    height: 3px;
+    background-color: #555555;
+    margin: 30px auto;
+}
+p{
+    text-align: center;
+    display: block;
+    font-weight:lighter;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 100;
+    
+}
+.serv{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 48px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#final{
+    color: white;
+    
+    font-size: 20px;
+}
+.FINAL{
+    padding-bottom: 5px
+
+}
+.hahahaah{
+    height: 70%;
+    align-items:flex-end;
+}
+.ab{
+    height: 15%;
+    
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+button:hover{
+    transition: 0.9s;
+    background-color: #ffffff; /* Green */
+    color: rgb(0, 0, 0);
+}
